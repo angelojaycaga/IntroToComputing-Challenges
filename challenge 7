@@ -1,0 +1,56 @@
+//HTML//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Project</title>
+</head>
+<body>
+
+    <!-- Block-level element with an ID -->
+    <div id="blockElement">
+        This is a block-level element with an ID.
+    </div>
+
+    <!-- Inline element with a class -->
+    <span class="inlineElement">This is an inline element with a class.</span>
+
+    <!-- Block-level element with a class -->
+    <div class="blockClass">
+        This is another block-level element with a class.
+    </div>
+
+    <!-- Inline element with an ID -->
+    <span id="inlineId">This is an inline element with an ID.</span>
+
+</body>
+</html>
+
+//CSS//
+/* Styling for the block-level element with an ID */
+#blockElement {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Styling for the inline element with a class */
+.inlineElement {
+    color: green;
+    font-weight: bold;
+}
+
+/* Styling for the block-level element with a class */
+.blockClass {
+    background-color: lightcoral;
+    padding: 15px;
+    margin: 15px;
+}
+
+/* Styling for the inline element with an ID */
+#inlineId {
+    color: purple;
+    font-style: italic;
+}
