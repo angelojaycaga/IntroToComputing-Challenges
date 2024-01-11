@@ -1,21 +1,62 @@
-<!-- Embedded Video -->
 
-  <iframe width="560" height="315" src="myvideo.mp4" frameborder="0" allowfullscreen></iframe>
+<!DOCTYPE html>
 
-<!-- Contact Form -->
-  <div id="contact-form">
-    <h2>Contact Us</h2>
-    <form action="submit_form.php" method="post">
-      <!-- Add your form fields here -->
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
+<html lang=”en”>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+<head>
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
+<meta charset=”UTF-8”>
 
-      <input type="submit" value="Submit">
-    </form>
-  </div>
+<title>Embed Video Using iframe</title>
+
+</head>
+
+<body>
+
+
+
+<iframe width=”560” height=”315” src=https:https://youtu.be/gV26nFt8X_8?list=RDCnVVjLOGVoY frameborder=”0” allowfullscreen></iframe>
+
+
+
+<iframe src=https:https://youtu.be/gV26nFt8X_8?list=RDCnVVjLOGVoY width=”560” height=”315” frameborder=”0” allow=”autoplay; fullscreen; picture-in-picture” allowfullscreen></iframe>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang=”en”>
+
+<head>
+
+<meta charset=”UTF-8”>
+
+<title>Local File Video</title>
+
+</head>
+
+<body>
+
+
+
+<video width=”560” height=”315” controls>
+
+  <source src=”https://youtu.be/gV26nFt8X_8?list=RDCnVVjLOGVoY=”video/mp4”>
+
+</video>
+
+
+
+</body>
+
+</html>
